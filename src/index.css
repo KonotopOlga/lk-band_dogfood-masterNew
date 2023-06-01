@@ -37,3 +37,21 @@ main {
 .container.bs {
   display: block;
 }
+.Banner {
+  padding: 1px;
+  display: grid;
+}
+.Banner_2 {
+  padding: 1px;
+  display: grid;
+}
+.Banner_3 {
+  padding: 1px;
+    border: 1px solid;
+    border-radius: 1px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: 40px;
+    align-items: center;
+    grid-column-end: span 2;
+}
